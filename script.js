@@ -7,4 +7,7 @@ function joinedName(){
    submit.innerHTML += firstname.value + lastname.value;
 
    submit.style.color ="#6e370b";
+
+   firstname.value = "";
+   lastname.value = "";
 }
